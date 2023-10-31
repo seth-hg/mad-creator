@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mad-creator"
+version = "0.1.0"
+description = ""
+authors = ["seth.hg <seth.hg@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mad_creator"}]
+
+[tool.poetry.dependencies]
+#python = "^3.9,<3.11"
+python = "^3.10"
+cn-clip = "^1.5.1"
+zhconv = "^1.4.3"
+rapidfuzz = "^3.3.1"
+opencv-python = "^4.8.1.78"
+librosa = "^0.10.1"
+tqdm = "^4.66.1"
+decord = "^0.6.0"
+modelscope = "^1.9.2"
+numpy = "1.25.2"
+fairseq = "^0.12.2"
+transformers = "^4.34.0"
+unicodedata2 = "^15.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
